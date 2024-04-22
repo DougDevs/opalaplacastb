@@ -231,3 +231,10 @@
   });
 
 })()
+
+
+window.addEventListener('load', function () {
+  // Após o carregamento completo da página, oculta o carregador e exibe o conteúdo
+  document.getElementById('loader-wrapper').style.display = 'none';
+  document.getElementById('content').style.display = 'block';
+});
